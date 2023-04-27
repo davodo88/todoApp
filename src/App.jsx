@@ -3,27 +3,7 @@ import Formulario from "./components/formulario"
 import Todos from "./components/todos"
 
 const initialStateTodos = JSON.parse(localStorage.getItem('todos')) || [
-  {
-    id: 1,
-    title: 'Tarea #1',
-    description: 'Descripcion #1',
-    estado: true,
-    priority: true,
-  },
-  {
-    id: 2,
-    title: 'Tarea #2',
-    description: 'Descripcion #2',
-    estado: false,
-    priority: false,
-  },
-  {
-    id: 3,
-    title: 'Tarea #3',
-    description: 'Descripcion #3',
-    estado: false,
-    priority: true,
-  },
+  
 ]
 
 
